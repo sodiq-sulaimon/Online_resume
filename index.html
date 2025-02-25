@@ -10,64 +10,83 @@
     <a href="./public/contact.html">Contact Me</a>
     <hr/>
     <h2>Summary</h2>
-    <p>A self-motivated and curious learner with interest in the design and implementation of performant software systems. Proficient in object-oriented programming in Java with a good understanding of data structures, database performance, operating systems, and OSI model. </p>
+    <p>A self-motivated and curious learner with interest in the design and implementation of performant software systems. Proficient in programming with a good understanding of data structures, database performance, operating systems, and networking. </p>
     <hr/>
     <h2>Education</h2>
     <ul>
         <h3><li>MSc, Computer Science</li></h3>
         <p>Georgia Institute of Technology • USA • Expected Graduation: 2026</p>
         <h3><li>BEng, Petroleum Engineering</li></h3>
-        <p>Federal University of Petroleum Resources Effurun • Nigeria • Overall Best Graduating Award</p>
+        <p>Federal University of Petroleum Resources Effurun • Nigeria • First Class (GPA: 4.69/5.0) • Overall Best Graduating Award</p>
     </ul>
+
+    <hr/>
+    <h2>Projects</h2>
+    <ul>
+        <h3><li>Multithreaded File Transfer Library in C</li></h3>
+        <ul>
+            <li>Built a multithreaded HTTP-like server and client file transfer library on TCP with boss-worker multithreading model.</li>
+            <li>Server: Implemented a handler that works as the boss thread that adds requests to a shared queue that is synchronized with a lock and conditional variable. Pool of worker threads are created based on the number specified by the user to process client requests concurrently.</li>
+            <li>Client: “main” acts as the boss thread that adds requests to a synchronized shared queue. The worker threads are responsible for sending requests to the server and handling the response.</li>
+        </ul>
+    </ul>
+    <ul>
+        <h3><li>Database Schema Design & Migration with PostgreSQL and Node.js</li></h3>
+        <ul>
+            <li>Designed a database schema for an Instagram-like social network application and implemented it using PostgreSQL.</li>
+            <li>Optimized access paths with indexes that resulted in reduction in query latency by over 14 times with minimal impact on memory usage.</li>
+            <li>Migrated data and schema for the database in phases using migration files in Node.js.</li>            
+        </ul>
+    </ul>
+    <ul>
+        <h3><li>Distributed Spanning Tree & Distance Vector Routing Protocols in Python</li></h3>
+        <ul>
+            <li>Implemented a simplified, distributed spanning tree algorithm to eliminate forwarding loops in switches (Layer 2 topology). Switches communicate with neighbors and block redundant paths, ensuring a single active path between any two nodes.</li>
+            <li>Implemented a packet routing protocol using the Bellman-Ford algorithm. Routers exchange routing tables with neighbors via message passing, with automatic convergence upon achieving consistent network state.</li>          
+        </ul>
+    </ul>
+    <ul>
+        <h3><li>Cache Performance & Coherence Protocols in C++</li></h3>
+        <ul>
+            <li>Implemented Next Least Recently Used (NXLRU) and Least Recently Used (LRU) cache replacement policies in the SESC simulator to gain insights into their impact on cache performance and efficiency.</li>
+            <li>Implemented cache miss categorization (coherence, compulsory, capacity, and conflict) for MESI coherence protocol to enhance my understanding of cache behavior and multi-core system performance.</li>
+        </ul>
+    </ul>
+    <ul>
+        <h3><li>Customers Request Prediction App in Python </li></h3>
+        <ul>
+            <li>Built a full-stack web application for customer request prediction on an e-commerce platform. Built the API endpoints using Flask and Python, and the frontend with HTML, CSS, and JavaScript. Integrated a machine learning model with >85% accuracy in the backend, containerized the application with Docker, and deployed it on Heroku.</li>
+        </ul>
+    </ul>
+    <hr/>
+
     <hr/>
     <h2>Work Experience</h2>
     <ul>
-        <h3><li>Software Engineer (Part-time) - Virufy</li></h3>
-        <p>December 2023 - August 2024</p>
-        <ul>
-            <li>Optimized access paths for a databases handling 100s of requests per second, reducing query latency by over 14 times with minimal impact on memory
-usage.</li>
-            <li>Migrated data and schema for a database with more than 10,000 active users without downtime using Node.js.</li>
-            <li>Built the backend for a web-based machine learning application using Python and FastAPI.</li>
-            <li>Designed database schema for a web application intended to serve 100k+ users and implemented it using PostgreSQL.</li>
-        </ul>
-        <h3><li>Sales Data Analyst  - TREXM Oil and Gas Services</li></h3>
+        <h3><li>Sales Operations Analyst  - TREXM Oil and Gas Services</li></h3>
         <p>September 2020 - July 2022</p>
         <ul>
-            <li>Created reports and dashboards to support the sales team with analytical insights that led to 3X growth of sales pipeline for calibration products.</li>
-            <li>Analyzed sales data to identify trends, patterns, and opportunities for growth in calibration products and maintenance services, resulting in a 17%
-increase in sales performance.</li>
+            <li>Created reports and dashboards to support the sales team with analytical insights that led to 3X growth of sales pipeline for pressure calibration products.</li>
+            <li>Analyzed sales data to identify trends, patterns, and opportunities for growth in calibration products and maintenance services, resulting in a 17% increase in sales.</li>
             <li>Created account plans and relationship map that led to $90,000+ in revenue for calibration solutions.</li>
             <li>Prepared technical proposals that generated more than $3M oil metering and flare gas opportunities.</li>
-            <li>Conducted market research and competitive analysis to support strategic planning and decision-making.
-            </li>
+            <li>Conducted market research and competitive analysis to support strategic planning and decision-making.</li>
         </ul>
-        
     </ul>
     <hr/>
     <h2>Freelance Experience</h2>
     <h3>Data Analyst - Upwork</h3>
     <ul>
-        <li>Conducted exploratory data analysis of customer survey data with Pandas and visualized the data with PowerBI to uncover insights that helped my client to prioritize offerings to visitors to their amusement park. Got 60% tip and a 5-star rating for exceeding the client's expectations.</li>
+        <li>Conducted exploratory data analysis of customer survey data with Pandas and visualized the data with PowerBI to uncover insights that helped my client to prioritize offerings to visitors to their amusement park. rated 5-star rating for exceeding the client's expectations.</li>
         <li>Analyzed salary data from US Bureau of Labor Statistics and prepared a PowerPoint presentation to tell the story based on the insights from the analysis done with PowerBI. Got a 5-star rating for meeting client's expectations and timely delivery.</li>
     </ul>
-    <hr/>
-    <h2>Projects</h2>
-    <ul>
-        <li><h4>Customers Request Prediction App</h4></li>
-        <p>Built a web application for customer request prediction for an e-commerce platform. Built the RESTful API endpoints with Flask and Python, and the frontend with HTML. The prediction is based on a regression model in the backend. Containerized the app with Docker and deployed it on Heroku.</p>
-        <li><h4>Object-oriented programming with Java</h4></li>
-        <p>Built simple games to demonstrate my understanding of data structures and object-oriented design in Java through objects that inherent from different classes and interfaces.</p>
-    </ul>
-    
-    <hr/>
     <h2>Skills</h2>
     <ul>
-        <li>Programming Languages: Java, Python, C, C++</li>
-        <li>Backend Frameworks:Flask, FastAPI </li>
-        <li>Frontend Development: HTML </li>
+        <li>Programming Languages: Python, Java, C, C++</li>
+        <li>Backend Frameworks: Flask, FastAPI </li>
+        <li>Frontend Development: HTML, CSS, JavaScript </li>
         <li>Databases: PostgreSQL </li>
-        <li>Tools: Docker, Bash, Postman, PyCharm, VS Code </li>
+        <li>Tools: Docker, Valgrind, Bash, Postman, VS Code </li>
         <li>Version Control: Git, GitHub </li>
         <li>APIs: Restful API design & Implementation</li>
     </ul>
